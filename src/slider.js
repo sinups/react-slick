@@ -182,7 +182,8 @@ export default class Slider extends React.Component {
             })
           );
         }
-        newSlide.push(<div key={10 * i + j}>{row}</div>);
+        //  newSlide.push(<div key={10 * i + j}>{row}</div>);
+        newSlide.push(<React.Fragment key={10 * i + j}>{row}</React.Fragment>);
       }
       if (settings.variableWidth) {
         newChildren.push(
