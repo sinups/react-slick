@@ -1,5 +1,5 @@
 {
-  "name": "react-slick",
+  "name": "@sinups/react-slick",
   "version": "0.0.1",
   "description": " React port of slick carousel",
   "main": "./lib",
