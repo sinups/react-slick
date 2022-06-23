@@ -20,12 +20,11 @@
     "gen": "node examples/scripts/generateExampleConfigs.js && node examples/scripts/generateExamples.js && xdg-open docs/jquery.html",
     "precommit": "lint-staged"
   },
-  "author": "sinups",
-  "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sinups/react-slick"
+    "url": "git@github.com:sinups/react-slick/issues.git"
   },
+  "author": "AK",
   "keywords": [
     "slick",
     "carousel",
